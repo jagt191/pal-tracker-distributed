@@ -6,7 +6,7 @@ applications:
   memory: 1G
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://backlog-pal-32205fe6-6d33-44d1-ab4f-496cd736768f.cfapps.io
+    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-3feb5c38-44a4-481c-a6a5-742ef60192ed.cfapps.io
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
   services:
   - tracker-backlog-database

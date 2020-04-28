@@ -6,7 +6,7 @@ applications:
   memory: 1G
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://allocations-pal-2c0466e0-2dc2-4dab-9923-328cf331aada.cfapps.io
+    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-3feb5c38-44a4-481c-a6a5-742ef60192ed.cfapps.io
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
   services:
   - tracker-allocations-database
